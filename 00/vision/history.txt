@@ -1,0 +1,500 @@
+   14  cd src/soccer/
+   15  ls
+   16  cd scripts/
+   17  ls
+   18  cd mtrctrl/
+   19  ls
+   20  cd ../
+   21  ls
+   22  vi ctrlNode.py 
+   23  ls
+   24  vi commNode.py 
+   25  ls
+   26  vi ctrlNode.py 
+   27  ls
+   28  vi ai.py 
+   29  ls
+   30  ifconfig
+   31  ifconfig
+   32  ls
+   33  cd ~
+   34  ls
+   35  vi ai.py 
+   36  ls
+   37  mv ai.py catkin_ws/src/soccer/scripts/
+   38  roscd socer
+   39  roscd soccer
+   40  ls
+   41  cd scripts/
+   42  ls
+   43  rm ai.py~
+   44  vi ai.py 
+   45  ls
+   46  ls -a
+   47  vi ai.py 
+   48  ls
+   49  cd ../../../
+   50  catkin_make
+   51  catkin_make | more
+   52  source devel/setup.bash
+   53  roscore
+   54  shutdown
+   55  rosrun soccer ai.py
+   56  roscd soccer
+   57  ls
+   58  cd scripts/
+   59  vi ai.py
+   60  rosrun soccer ai.py
+   61  vi ai.py
+   62  ./ai.py
+   63  rosrun soccer ai.py
+   64  vi ai.py
+   65  ls
+   66  cd ~
+   67  ls
+   68  mv kalman.py catkin_ws/src/soccer/scripts/
+   69  rosrun ai.py
+   70  rosrun soccer ai.py
+   71  roscd soccer
+   72  ls
+   73  cd scripts/
+   74  ls
+   75  vi ai.py
+   76  vi kalman.py
+   77  vi ai.py
+   78  rosrun soccer ai.py
+   79  vi ai.py
+   80  rosrun soccer ai.py
+   81  vi ai.py
+   82  rosrun soccer ai.py
+   83  vi ai.py
+   84  rosrun soccer ai.py
+   85  vi ai.py
+   86  vi ai.py
+   87  rosrun soccer ai.py
+   88  vi ai.py
+   89  rosrun soccer ai.py
+   90  vi ai.py
+   91  rosrun soccer ai.py
+   92  vi ai.py
+   93  rosrun soccer ai.py
+   94  vi ai.py
+   95  vi kalman.py
+   96  exit
+   97  rosrun soccer KalmanFilter_threaded.py
+   98  rosrun soccer KalmanFilter_threaded.py
+   99  ls
+  100  cd catkin_ws
+  101  catkin_make
+  102  rosrun soccer kalman.py 
+  103  cd src/
+  104  ls
+  105  cd soccer/
+  106  ls
+  107  cd scripts/
+  108  ls
+  109  vi kalman.py 
+  110  vi KalmanFilter_threaded.py
+  111  vi kalman.py 
+  112  cd /home/root/vision
+  113  ls
+  114  cd -
+  115  vi kalman.py
+  116  rosrun soccer kalman.py
+  117  rosrun soccer kalman.py
+  118  exit
+  119  rosrun soccer ctrlNode.py 
+  120  rosrun soccer ctrlNode.py 
+  121  exit
+  122  ls
+  123  roscore
+  124  shutdown
+  125  ls
+  126  cd c
+  127  cd catkin_ws
+  128  cd src/soccer/scripts/
+  129  ls
+  130  vi ctrlNode.py 
+  131  vi ai.py
+  132  ls
+  133  vi kalman.py
+  134  shutdown
+  135  top
+  136  clear
+  137  top
+  138  history
+  139  top
+  140  clear
+  141  cd vision
+  142  ls
+  143  ./minnow
+  144  ./minnow
+  145  ./minnow
+  146  ./minnow
+  147  ls
+  148  vim visionMinnow.cpp
+  149  g++ `pkg-config --cflags opencv` -O3 visionMinnow.cpp -o minnow `pkg-config --libs opencv`
+  150  ./minnow 
+  151  ls
+  152  cd
+  153  ls
+  154  mv visionMinnow.cpp vision
+  155  ls
+  156  cd vision
+  157  ls
+  158  vim visionMinnow.cpp
+  159  vim
+  160  vim visionMinnow.cpp
+  161  g++ `pkg-config --cflags opencv` -O3 visionMinnow.cpp -o minnow `pkg-config --libs opencv`
+  162  g++ `pkg-config --cflags opencv` -O3 visionMinnow.cpp -o minnow `pkg-config --libs opencv`
+  163  ./minnow
+  164  cd catkin_ws
+  165  cd src/soccer/scripts/
+  166  rosrun soccer kalman.py
+  167  rosrun soccer kalman.py
+  168  vi kalman.py
+  169  rosrun soccer kalman.py
+  170  shutdown
+  171  ls
+  172  ifconfig
+  173  ifconfig
+  174  ifconfig
+  175  roscore
+  176  ls
+  177  cd catkin_ws
+  178  ls
+  179  cd src/soccer/scripts/
+  180  ls
+  181  vim irNode.py
+  182  ls
+  183  mkdir irctrl
+  184  cd ir
+  185  cd irctrl/
+  186  ls
+  187  vim ../kickctrl/
+  188  cp -r ../kickctrl/*.sh ./
+  189  ls
+  190  vim setup_gpio.sh 
+  191  ls
+  192  vim kick_in.sh 
+  193  sh setup_gpio.sh
+  194  python
+  195  ls
+  196  cat kick_
+  197  cat kick_in.sh 
+  198  python
+  199  ls
+  200  cd ..
+  201  ls
+  202  vim irNode.py 
+  203  :tabf ctrlNode.py
+  204  ls
+  205  vim irNode.py ctrlNode.py
+  206  ls
+  207  chmod +x irNode.py
+  208  vim irNode.py
+  209  ls
+  210  vim irNode.py
+  211  cd /home/root/catkin_ws/src/soccer/scripts/irctrl/
+  212  ls
+  213  vim setup_gpio.sh
+  214  cd ..
+  215  ls
+  216  vim irNode.py
+  217  ls
+  218  rosnode lsit
+  219  rosnode list
+  220  ls
+  221  vim listener.py
+  222  cd ~/catkin_ws
+  223  ls
+  224  catkin_make
+  225  rosnode list
+  226  rosnode list
+  227  cd src/soccer/scripts/
+  228  ls
+  229  vim ctrlNode.py
+  230  clear
+  231  exit
+  232  cd catkin_ws
+  233  source devel/setup.bash 
+  234  rosrun soccer listener.py
+  235  rosrun soccer listener.py
+  236  rosrun soccer listener.py
+  237  rosrun soccer listener.py
+  238  rosrun soccer listener.py
+  239  source devel/setup.bash 
+  240  rosrun soccer listener.py
+  241  rosrun soccer listener.py
+  242  source devel/setup.bash 
+  243  rosrun soccer listener.py
+  244  rosrun soccer listener.py
+  245  rosrun soccer listener.py
+  246  rosrun soccer listener.py
+  247  rosrun soccer listener.py
+  248  rosrun soccer listener.py
+  249  rosrun soccer listener.py
+  250  rosrun soccer listener.py
+  251  rosrun soccer listener.py
+  252  exit
+  253  ls
+  254  cd catkin_ws
+  255  ls
+  256  source  devel/setup.bash 
+  257  rosrun soccer irNode.py
+  258  rosrun soccer irNode.py
+  259  rosrun soccer irNode.py
+  260  rosrun soccer irNode.py
+  261  rosrun soccer irNode.py
+  262  rosrun soccer irNode.py
+  263  rosrun soccer irNode.py
+  264  rosrun soccer irNode.py
+  265  rosrun soccer irNode.py
+  266  rosrun soccer irNode.py
+  267  rosrun soccer irNode.py
+  268  source  devel/setup.bash 
+  269  rosrun soccer irNode.py
+  270  rosrun soccer ctrlNode.py
+  271  source  devel/setup.bash 
+  272  rosrun soccer ctrlNode.py
+  273  rosrun soccer irNode.py
+  274  rosrun soccer irNode.py
+  275  rosrun soccer irNode.py
+  276  rosrun soccer irNode.py
+  277  rosrun soccer irNode.py
+  278  rosrun soccer irNode.py
+  279  rosrun soccer irNode.py
+  280  rosrun soccer irNode.py
+  281  exit
+  282   
+  283  ls
+  284  ifconfig
+  285  ifconfig
+  286  ls
+  287  mv nightTime.config vision
+  288  ls
+  289  cd vision
+  290  ls
+  291  cd ../catkin_ws/
+  292  cd src/soccer/scripts/
+  293  ls
+  294  vim kalman.py
+  295  shutdown
+  296  ls
+  297  rosnode list
+  298  ls
+  299  cd catkin_ws
+  300  ls
+  301  d src/soccer/scripts/
+  302  ls
+  303  cd src/soccer/scripts/
+  304  ls
+  305  vim ctrlNode.py
+  306  ls
+  307  cd mtrctrl/
+  308  ls
+  309  python
+  310  rosnode list
+  311  l
+  312  ls
+  313  cd catkin_ws
+  314  ls
+  315  cd src/soccer/scripts/
+  316  ls
+  317  vim ctrlNode.py
+  318  cd mtrctrl/
+  319  ls
+  320  vim wheelControls.py
+  321  cd catkin_ws/src/soccer/scripts/
+  322  ls
+  323  ls
+  324  vim irNode.py
+  325  rosrun soccer kalman.py
+  326  ls
+  327  cd catkin_ws
+  328  ls
+  329  screen -S ros
+  330  exit
+  331  roscore
+  332  exit
+  333  ls
+  334  roscd soccer
+  335  ls
+  336  cd scripts/
+  337  LS
+  338  ls
+  339  wifi
+  340  ifconfig
+  341  ls
+  342  vi ai.py
+  343  ifconfig
+  344  cd ~
+  345  ls
+  346  roscd soccer
+  347  ls
+  348  cd scripts/
+  349  vi kalman.py
+  350  ls
+  351  rm KalmanFilter_threaded.py*
+  352  ls
+  353  vim ai.py
+  354  ls
+  355  ls -a
+  356  rm .ai.py.swp
+  357  rm .ai.py.swo 
+  358  vi ai.py
+  359  ls
+  360  vi ai.py
+  361  vi kalman.py
+  362  vi ai.py
+  363  ls
+  364  cd ~
+  365  ls
+  366  mv goalBall /home/root/vision/
+  367  mv hsvValues.config /home/root/vision
+  368  ls
+  369  cd /home/root/vision
+  370  ls
+  371  roscore
+  372  exit
+  373  rosrun soccer ctrlNode.py
+  374  vi ai.py
+  375  :q
+  376  ls
+  377  rosrun soccer ctrlNode.py
+  378  ls
+  379  roscd soccer
+  380  cd scripts/
+  381  vi mtrctrl/
+  382  ls
+  383  vi ctrlNode.py
+  384  ls
+  385  rosrun soccer ctrlNode.py
+  386  vi mtrctrl/
+  387  vi ctrlNode.py
+  388  rosrun soccer ctrlNode.py
+  389  vi ctrlNode.py
+  390  ls
+  391  cd mtrctrl/
+  392  ls
+  393  vi wheelControls.py
+  394  cd ../
+  395  rosrun soccer ctrlNode.py
+  396  rosrun soccer ctrlNode.py
+  397  rosrun soccer kalman.py
+  398  rosrun soccer kalman.py
+  399  rosrun soccer kalman.py
+  400  roscd soccer
+  401  cd scripts/
+  402  ls
+  403  vi kalman.py
+  404  cd /home/root/vision
+  405  ls
+  406  ./goalBall 
+  407  ./goalBall hsvValues.config
+  408  goalBall hsvValues.config
+  409  ./goalBall hsvValues.config
+  410  ls
+  411  ./tracking hsvValues.config
+  412  cd /opt/softkinetic/DepthSenseSDK/include/
+  413  ls
+  414  ls
+  415  cd /home/root
+  416  cd vision
+  417  ls
+  418  rm goalBall 
+  419  ls
+  420  which g++
+  421  g++ goalBall.cpp -o goalBall -I /opt/softkinetic/DepthSenseSDK/include -L /opt/softkinetic/DepthSenseSDK/lib/ -lDepthSense 'pkg-config --cflags --libs opencv'ls
+  422  g++ goalBall.cpp -o goalBall -I /opt/softkinetic/DepthSenseSDK/include -L /opt/softkinetic/DepthSenseSDK/lib/ -lDepthSense `pkg-config --cflags --libs opencv`ls
+  423  g++ goalBall.cpp -o goalBall -I /opt/softkinetic/DepthSenseSDK/include -L /opt/softkinetic/DepthSenseSDK/lib/ -lDepthSense `pkg-config --cflags --libs opencv`
+  424  ls
+  425  ./goalBall hsvValues.config 
+  426  vi goalBall.cpp
+  427  g++ goalBall.cpp -o goalBall -I /opt/softkinetic/DepthSenseSDK/include -L /opt/softkinetic/DepthSenseSDK/lib/ -lDepthSense `pkg-config --cflags --libs opencv`
+  428  ./goalBall hsvValues.config 
+  429  ./goalBall hsvValues.config 
+  430   
+  431  ./goalBall hsvValues.config 
+  432  ./goalBall hsvValues.config 
+  433  ./goalBall hsvValues.config 
+  434  vi goalBall
+  435  vi goalBall.cpp
+  436  g++ goalBall.cpp -o goalBall -I /opt/softkinetic/DepthSenseSDK/include -L /opt/softkinetic/DepthSenseSDK/lib/ -lDepthSense `pkg-config --cflags --libs opencv`
+  437  ./goalBall hsvValues.config 
+  438  ./goalBall hsvValues.config 
+  439  rosrun soccer kalman.py
+  440  ls
+  441  vi goalBall
+  442  vi goalBall.cpp
+  443  g++ goalBall.cpp -o goalBall -I /opt/softkinetic/DepthSenseSDK/include -L /opt/softkinetic/DepthSenseSDK/lib/ -lDepthSense `pkg-config --cflags --libs opencv`
+  444  rosrun soccer kalman.py
+  445  rosrun soccer kalman.py
+  446  ls
+  447  cd /home/root/vision
+  448  ls
+  449  vi goalBall.cpp
+  450  shutdown
+  451  roscd soccer
+  452  rosrun soccer ai.py
+  453  rosrun soccer ai.py
+  454  vi ai.py
+  455  ls
+  456  cd scripts/
+  457  vi ai.py
+  458  vi ai.py
+  459  rosrun soccer ai.py
+  460  vi ai.py
+  461  rosrun soccer ai.py
+  462  vi ai.py
+  463  rosrun soccer ai.py
+  464  vi ai.py
+  465  rosrun soccer ai.py
+  466  vi ai.py
+  467  rosrun soccer ai.py
+  468  exit
+  469  roscd soccer
+  470  rosrun soccer ctrlNode.py
+  471  shutdown
+  472  cd /home/root/vision
+  473  ls
+  474  vi goalBall.cpp
+  475  ls
+  476  g++ goalBall.cpp -o goalBall -I /opt/softkinetic/DepthSenseSDK/include/ -L /opt/softkinetic/DepthSenseSDK/lib/ -lDepthSense `pkg-config --cflags --libs opencv`
+  477  ./goalBall hsvValues.config 
+  478  g++ goalBall.cpp -o goalBall -I /opt/softkinetic/DepthSenseSDK/include/ -L /opt/softkinetic/DepthSenseSDK/lib/ -lDepthSense `pkg-config --cflags --libs opencv`
+  479  ps aux | grep goalBall
+  480  kill -6 509
+  481  ls
+  482  ls
+  483  roscd soccer
+  484  cd scripts/
+  485  vi ai.py
+  486  ls -a
+  487  rm .ai.py.swp 
+  488  vi ai.py
+  489  cd /home/root/
+  490  ls
+  491  cd vision
+  492  ls
+  493  vi hsvValues.config 
+  494  ls
+  495  ls
+  496  vi goalBall.cpp
+  497  ls
+  498  g++ goalBall.cpp -o goalBall -I /opt/softkinetic/DepthSenseSDK/include/ -L /opt/softkinetic/DepthSenseSDK/lib/ -lDepthSense `pkg-config --cflags --libs opencv`
+  499  g++ goalBall.cpp -o goalBall -I /opt/softkinetic/DepthSenseSDK/include/ -L /opt/softkinetic/DepthSenseSDK/lib/ -lDepthSense `pkg-config --cflags --libs opencv`
+  500  shutdown
+  501  ls
+  502  cd vision
+  503  ls
+  504  vim goalBall.cpp
+  505  ls
+  506  ./goalBall hsvValues.config
+  507  ./goalBall hsvValues.config
+  508  ./goalBall hsvValues.config
+  509  ls
+  510  vim goalBall
+  511  vim goalBall.cpp
+  512  g++ goalBall.cpp -o goalBall `pkg-config --cflags --libs opencv`
+  513  history > history.txt
