@@ -1,0 +1,1 @@
+echo out > /sys/class/gpio/gpio247/direction
